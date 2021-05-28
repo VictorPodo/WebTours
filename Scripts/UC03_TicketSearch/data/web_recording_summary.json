@@ -1,0 +1,450 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 15,
+    "RecordedBrowser": "d:\\program files (x86)\\microsoft\\edge\\application\\msedge.exe",
+    "RecordingDate": "Р СР В°Р в„–-22-2021",
+    "RecordingDuration": 182844,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1621694803,
+    "RecordingType": "Application",
+    "TotalBytesReceived": 29685,
+    "TotalBytesSent": 16292,
+    "TotalRequests": 27,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "skype.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.42.23",
+          "IncludeInScript": false,
+          "Name": "config.edge.skype.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 78,
+              "EventId": 76,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://config.edge.skype.com/config/v1/Edge/90.0.818.66?clientId=-5699497758878026318&osname=win&client=edge&channel=stable&scpfull=0&scpguard=0&scpfre=0&osver=10.0.18363&osarch=x86_64&osedition=professional&wu=1&devicefamily=desktop&uma=0&mngd=0&installdate=1598696840"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "204.79.197.219",
+          "IncludeInScript": false,
+          "Name": "edge.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 224,
+              "HttpStatus": 200,
+              "Size": 92,
+              "URL": "https://edge.microsoft.com/autofillservice/v1/pages/ChRDaHJvbWUvOTAuMC40NDMwLjIxMhIsCc7BRq1kRq-4EgUNVGIprRIFDXudxKUSBQ0fOzmFEgUN2oWZYRIFDamOSr0=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 393,
+              "URL": "https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=4:4032362885&cup2hreq=1d944c5f022374f269767f46568b258cbd9fd5ad159924c7e9b6f81dfab518ca"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 139,
+              "HttpStatus": 200,
+              "Size": 67189,
+              "URL": "https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 120,
+              "HttpStatus": 200,
+              "Size": 40,
+              "URL": "https://edge.microsoft.com/autofillservice/v1/pages/ChRDaHJvbWUvOTAuMC40NDMwLjIxMhIXCZEep9-99SkzEgUN541ADhIFDc5BTHo=?alt=proto"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 79,
+              "EventId": 98,
+              "HttpStatus": 200,
+              "Size": 1672,
+              "URL": "https://edge.microsoft.com/identity/api/v2/msa"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "204.79.197.200",
+          "IncludeInScript": false,
+          "Name": "www.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 93,
+              "EventId": 125,
+              "HttpStatus": 400,
+              "Size": 1,
+              "URL": "https://www.bing.com/fd/auth/signin?&action=header&provider=windows_live_id&save_token=0"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.56.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.56.1",
+          "IncludeInScript": true,
+          "Name": "192.168.56.1",
+          "Port": 1080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 250,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://192.168.56.1:1080/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 1484,
+              "URL": "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 242,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 235,
+              "HttpStatus": 200,
+              "Size": 2451,
+              "URL": "http://192.168.56.1:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 222,
+              "HttpStatus": 200,
+              "Size": 758,
+              "URL": "http://192.168.56.1:1080/WebTours/images/button_next.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 220,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://192.168.56.1:1080/WebTours/images/home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 218,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://192.168.56.1:1080/WebTours/images/in_flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 215,
+              "HttpStatus": 200,
+              "Size": 4246,
+              "URL": "http://192.168.56.1:1080/cgi-bin/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 205,
+              "HttpStatus": 200,
+              "Size": 616,
+              "URL": "http://192.168.56.1:1080/cgi-bin/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 197,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://192.168.56.1:1080/WebTours/images/flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://192.168.56.1:1080/WebTours/images/itinerary.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 193,
+              "HttpStatus": 200,
+              "Size": 751,
+              "URL": "http://192.168.56.1:1080/WebTours/images/signoff.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 191,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://192.168.56.1:1080/WebTours/images/in_home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 184,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 181,
+              "HttpStatus": 200,
+              "Size": 918,
+              "URL": "http://192.168.56.1:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 176,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://192.168.56.1:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 164,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://192.168.56.1:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 112,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://192.168.56.1:1080/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 46,
+              "EventId": 105,
+              "HttpStatus": 200,
+              "Size": 679,
+              "URL": "http://192.168.56.1:1080/WebTours/images/mer_login.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 100,
+              "HttpStatus": 200,
+              "Size": 1361,
+              "URL": "http://192.168.56.1:1080/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 1489,
+              "URL": "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 93,
+              "HttpStatus": 200,
+              "Size": 4187,
+              "URL": "http://192.168.56.1:1080/webtours/images/webtours.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 87,
+              "HttpStatus": 200,
+              "Size": 601,
+              "URL": "http://192.168.56.1:1080/webtours/images/hp_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 84,
+              "HttpStatus": 200,
+              "Size": 710,
+              "URL": "http://192.168.56.1:1080/webtours/header.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 64,
+              "HttpStatus": 200,
+              "Size": 366,
+              "URL": "http://192.168.56.1:1080/webtours/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 8
+}

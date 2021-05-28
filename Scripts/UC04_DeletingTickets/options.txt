@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\zeroz\OneDrive\Desktop\LR_WebTours-main\Scripts\UC04_DeletingTickets
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc04_deletingtickets\\logfile.log
+c:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc04_deletingtickets\\combined_UC04_DeletingTickets.c
+c:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc04_deletingtickets\\pre_cci.c

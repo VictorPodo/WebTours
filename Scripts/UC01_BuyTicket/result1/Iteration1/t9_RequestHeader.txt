@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Referer: http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66
+Accept-Encoding: gzip, deflate
+Accept-Language: ru
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.56.1:1080
+Cookie: MSO=SID&1622241584; MTUserInfo=firstName&Aaron&username&Aaron&address2&USA&hash&14&expDate&05%2F21&creditCard&5221%206811%204414%206260%20&address1&Klink%20Turin&lastName&Thompson%0A
+

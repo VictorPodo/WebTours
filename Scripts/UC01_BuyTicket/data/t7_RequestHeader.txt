@@ -1,0 +1,15 @@
+POST /cgi-bin/reservations.pl HTTP/1.1
+Host: 192.168.56.1:1080
+Connection: keep-alive
+Content-Length: 332
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.56.1:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://192.168.56.1:1080/cgi-bin/reservations.pl
+Accept-Encoding: gzip, deflate
+Accept-Language: ru
+Cookie: MSO=SID&1621682681; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&12312323213133&expDate&12313%0A
+

@@ -1,0 +1,12 @@
+POST /cgi-bin/login.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://192.168.56.1:1080/cgi-bin/nav.pl?in=home
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66
+Accept-Encoding: gzip, deflate
+Accept-Language: ru
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.56.1:1080
+Cookie: MSO=SID&1621875006; MTUserInfo=firstName&Scott&address2&USA&username&Scott&hash&116&lastName&Ressen%0A&address1&Sitty%20Dell&creditCard&&expDate&%0A
+Content-Length: 118
+

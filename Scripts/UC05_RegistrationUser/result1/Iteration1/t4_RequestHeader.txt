@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Referer: http://192.168.56.1:1080/cgi-bin/login.pl
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.62
+Accept-Encoding: gzip, deflate
+Accept-Language: ru
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.56.1:1080
+Cookie: MSO=SID&1621768817; MTUserInfo=firstName&&address2&&username&583741592&hash&18&lastName&&address1&&creditCard&&expDate&
+

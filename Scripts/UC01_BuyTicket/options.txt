@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\zeroz\OneDrive\Desktop\LR_WebTours-main\Scripts\UC01_BuyTicket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc01_buyticket\\logfile.log
+c:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc01_buyticket\\combined_UC01_BuyTicket.c
+c:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc01_buyticket\\pre_cci.c

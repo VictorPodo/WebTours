@@ -1,0 +1,55 @@
+Virtual User Script started at: 22.05.2021 17:38:13
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\zeroz\OneDrive\Documents\VuGen\Scripts\LoginAndLogOut\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "2_MAIN_LoginAndLogOut" started.
+Action.c(6): Notify: Transaction "OpenSite" started.
+Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(10): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(14): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(25): web_url("webtours") started  	[MsgId: MMSG-26355]
+Action.c(25): Detected non-resource "http://192.168.56.1:1080/webtours/header.html" in "http://192.168.56.1:1080/webtours/"  	[MsgId: MMSG-26574]
+Action.c(25): Detected non-resource "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://192.168.56.1:1080/webtours/"  	[MsgId: MMSG-26574]
+Action.c(25): Found resource "http://192.168.56.1:1080/webtours/images/hp_logo.png" in HTML "http://192.168.56.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(25): Found resource "http://192.168.56.1:1080/webtours/images/webtours.png" in HTML "http://192.168.56.1:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(25): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(25): Detected non-resource "http://192.168.56.1:1080/WebTours/home.html" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(25): Found resource "http://192.168.56.1:1080/WebTours/images/mer_login.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(25): web_url("webtours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(35): Notify: Transaction "OpenSite" ended with a "Pass" status (Duration: 0,1454 Wasted Time: 0,0717).
+Action.c(39): Notify: Transaction "Login" started.
+Action.c(41): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(41): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://192.168.56.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(41): Detected non-resource "http://192.168.56.1:1080/cgi-bin/login.pl?intro=true" in "http://192.168.56.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(41): Found resource "http://192.168.56.1:1080/WebTours/images/flights.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "http://192.168.56.1:1080/WebTours/images/itinerary.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "http://192.168.56.1:1080/WebTours/images/in_home.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(41): Found resource "http://192.168.56.1:1080/WebTours/images/signoff.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(41): web_submit_data("login.pl") was successful, 5782 body bytes, 2053 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(58): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,0976 Wasted Time: 0,0050).
+Action.c(60): lr_think_time: 5,00 seconds.
+Action.c(62): Notify: Transaction "LogOut" started.
+Action.c(64): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(64): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(64): Detected non-resource "http://192.168.56.1:1080/WebTours/home.html" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(64): Retrieving data from cache for "http://192.168.56.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(64): Resource "http://192.168.56.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): web_url("SignOff Button") was successful, 2170 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(74): Notify: Transaction "LogOut" ended with a "Pass" status (Duration: 0,0855 Wasted Time: 0,0039).
+Action.c(75): Notify: Transaction "2_MAIN_LoginAndLogOut" ended with a "Pass" status (Duration: 5,3394 Think Time: 5,0009 Wasted Time: 0,0806).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
