@@ -7,6 +7,6 @@ Accept-Language: ru
 Accept: */*
 Connection: Keep-Alive
 Host: 192.168.56.1:1080
-Cookie: MSO=SID&1622241584; MTUserInfo=firstName&Aaron&address2&USA&username&Aaron&hash&14&lastName&Thompson%0A&address1&Klink%20Turin&creditCard&&expDate&%0A
-Content-Length: 238
+Cookie: MSO=SID&1622714040; MTUserInfo=firstName&Aaron&address2&USA&username&Aaron&hash&14&lastName&Thompson%0A&address1&Klink%20Turin&creditCard&&expDate&%0A
+Content-Length: 240
 

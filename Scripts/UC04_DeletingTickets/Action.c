@@ -95,8 +95,6 @@ Action()
 	
 	lr_end_transaction("Click_Itinerary",LR_AUTO);
 	
-	lr_think_time(5);
-	
 	Tickets = atoi(lr_eval_string("{Tickets_Count}"));
 	if (Tickets != 0){
 			
@@ -121,16 +119,16 @@ Action()
 		"Name=removeFlights.y", "Value=9", ENDITEM,
 	LAST);
 	
-		ticketsIDbefore_1 = atoi(lr_eval_string("{ticketsIDbefore_1}"));
-		ticketsIDafter_1 = atoi(lr_eval_string("{ticketsIDafter_1}"));
+biletsIDbefore_1 = atoi(lr_eval_string("{biletsIDbefore_1}"));
+biletsIDafter_1 = atoi(lr_eval_string("{biletsIDafter_1}"));
 
-if(ticketsIDbefore_1 == ticketsIDafter_1){
+if(biletsIDbefore_1 == biletsIDafter_1){
 
 	lr_error_message("Error: %s", "the ticket was not deleted");	
 	
-} else if(ticketsIDbefore_1 != ticketsIDafter_1){
+} else if(biletsIDbefore_1 != biletsIDafter_1){
 
-	lr_output_message( "The ticket was deleted #%s", lr_eval_string("{ticketsIDbefore_1}"));
+	lr_output_message( "The ticket was deleted #%s", lr_eval_string("{biletsIDbefore_1}"));
 
 }
 
@@ -163,14 +161,15 @@ else
 	
     lr_start_transaction("Logout");
 	web_url("SignOff Button", 
-		"URL=http://192.168.26.1:1080/cgi-bin/welcome.pl?signOff=1", 
+		"URL=http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://192.168.26.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+		"Referer=http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		LAST);
+    
 	lr_end_transaction("Logout",LR_AUTO);
 	lr_end_transaction("4_MAIN_DeletingTickets",LR_AUTO);
 } 

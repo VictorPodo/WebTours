@@ -15,9 +15,35 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_UC01_BuyTicket.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="101971348440.idx" Filter="1" />
+    <FileEntry Name="10197134844_441.709.idx" Filter="1" />
+    <FileEntry Name="10197134844_9uP.155.idx" Filter="1" />
+    <FileEntry Name="10197134844_Bzp.427.idx" Filter="1" />
+    <FileEntry Name="10197134844_c3E.893.idx" Filter="1" />
+    <FileEntry Name="10197134844_ELZ.953.idx" Filter="1" />
+    <FileEntry Name="10197134844_J0G.249.idx" Filter="1" />
+    <FileEntry Name="10197134844_jqV.81.idx" Filter="1" />
+    <FileEntry Name="10197134844_PNl.563.idx" Filter="1" />
+    <FileEntry Name="10197134844_tHI.221.idx" Filter="1" />
+    <FileEntry Name="10197134844_wYf.505.idx" Filter="1" />
+    <FileEntry Name="103428321440.idx" Filter="1" />
+    <FileEntry Name="10342832144_51O.82.idx" Filter="1" />
+    <FileEntry Name="10342832144_j2v.954.idx" Filter="1" />
+    <FileEntry Name="10342832144_mlN.428.idx" Filter="1" />
+    <FileEntry Name="10342832144_olg.506.idx" Filter="1" />
+    <FileEntry Name="10342832144_qef.894.idx" Filter="1" />
+    <FileEntry Name="10342832144_qH9.222.idx" Filter="1" />
+    <FileEntry Name="10342832144_Tco.156.idx" Filter="1" />
+    <FileEntry Name="10342832144_tfy.564.idx" Filter="1" />
+    <FileEntry Name="10342832144_txY.250.idx" Filter="1" />
+    <FileEntry Name="10342832144_WZ2.710.idx" Filter="1" />
     <FileEntry Name="153224525440.idx" Filter="1" />
+    <FileEntry Name="154594387440.idx" Filter="1" />
     <FileEntry Name="193980641440.idx" Filter="1" />
+    <FileEntry Name="233173366440.idx" Filter="1" />
+    <FileEntry Name="43016115440.idx" Filter="1" />
     <FileEntry Name="48977459440.idx" Filter="1" />
+    <FileEntry Name="8320427440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -26,6 +52,10 @@
     <FileEntry Name="LastName.dat" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1M6.209.log" Filter="1" />
+    <FileEntry Name="mdrvDi6.409.log" Filter="1" />
+    <FileEntry Name="mdrvmtH.269.log" Filter="1" />
+    <FileEntry Name="mdrvw2c.859.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

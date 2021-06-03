@@ -1,0 +1,11 @@
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Referer: http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66
+Accept-Encoding: gzip, deflate
+Accept-Language: ru
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.56.1:1080
+Cookie: MSO=SID&1622705746; MTUserInfo=firstName&Aaron&address2&USA&username&Aaron&hash&14&lastName&Thompson%0A&address1&Klink%20Turin&creditCard&&expDate&%0A
+

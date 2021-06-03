@@ -1,4 +1,4 @@
-"firstName=Aaron&lastName=Thompson&address1=Klink+Turin&address2=Sydney&pass1=Aaron+Thompson&cr"
-"editCard=5221+6811+4414+6260+&expDate=05%2F21&saveCC=on&oldCCOption=on&numPassengers=1&seatTyp"
-"e=First&seatPref=Window&outboundFlight=843%3B2192%3B05%2F30%2F2021&advanceDiscount=0&returnFli"
+"firstName=Aaron&lastName=Thompson&address1=Klink+Turin&address2=Zurich&pass1=Aaron+Thompson&cr"
+"editCard=5221+6811+4414+6260+&expDate=06%2F21&saveCC=on&oldCCOption=on&numPassengers=1&seatTyp"
+"e=Business&seatPref=None&outboundFlight=920%3B271%3B06%2F04%2F2021&advanceDiscount=0&returnFli"
 "ght=&JSFormSubmit=off&buyFlights.x=40&buyFlights.y=10&.cgifields=saveCC"

@@ -11,6 +11,6 @@
 // Global Variables
 
 int Tickets;
-int ticketsIDbefore_1, ticketsIDafter_1;
+int biletsIDbefore_1, biletsIDafter_1;
 
 #endif // _GLOBALS_H

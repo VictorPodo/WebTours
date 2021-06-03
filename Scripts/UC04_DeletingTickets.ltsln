@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0-trunk
+Project("556B7EB5-EC05-41D0-83A3-6B0827FFEC49") = "UC04_DeletingTickets", "UC04_DeletingTickets\UC04_DeletingTickets.usr", "556B7EB5-EC05-41D0-83A3-6B0827FFEC49"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXHplcm96XE9uZURyaXZlXERlc2t0b3BcTFJfV2ViVG91cnMtbWFpblxTY3JpcHRzXFVDMDRfRGVsZXRpbmdUaWNrZXRzXFVDMDRfRGVsZXRpbmdUaWNrZXRzLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5VQzA0X0RlbGV0aW5nVGlja2V0cy51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDIxLTA1LTMwVDE1OjAwOjIzLjU0NTMzMTErMDM6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		556B7EB5-EC05-41D0-83A3-6B0827FFEC49.Debug|Any CPU.Build.0 = Debug|Any CPU
+		556B7EB5-EC05-41D0-83A3-6B0827FFEC49.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		556B7EB5-EC05-41D0-83A3-6B0827FFEC49.Release|Any CPU.Build.0 = Release|Any CPU
+		556B7EB5-EC05-41D0-83A3-6B0827FFEC49.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

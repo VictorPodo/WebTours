@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="3_MAIN_TicketSearch__*delimiter*__OpenSite__*delimiter*__Login__*delimiter*__ClickFlights__*delimiter*__FillFlight__*delimiter*__LogOut"
+Order="3_MAIN_TicketSearch__*delimiter*__OpenSite__*delimiter*__Login__*delimiter*__ClickFlights__*delimiter*__FillFlight__*delimiter*__Choose_Flight__*delimiter*__LogOut"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,4 +64,5 @@ OpenSite=
 Login=
 ClickFlights=
 FillFlight=
+Choose_Flight=
 LogOut=

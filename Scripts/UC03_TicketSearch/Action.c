@@ -39,29 +39,9 @@ Action()
 	
 	lr_think_time(5);
 
-	/*Possible OAUTH authorization was detected. It is recommended to correlate the authorization parameters.*/
-
 	lr_start_transaction("Login");
 	
 	web_reg_find("Text=Welcome, <b>{UserName}</b>, to the Web Tours reservation pages.", LAST);
-
-	web_submit_data("login.pl",
-		"Action=http://192.168.56.1:1080/cgi-bin/login.pl",
-		"Method=POST",
-		"TargetFrame=body",
-		"RecContentType=text/html",
-		"Referer=http://192.168.56.1:1080/cgi-bin/nav.pl?in=home",
-		"Snapshot=t2.inf",
-		"Mode=HTML",
-		ITEMDATA,
-		"Name=userSession", "Value={userSession}", ENDITEM,
-		"Name=username", "Value={UserName}", ENDITEM,
-		"Name=password", "Value={Password}", ENDITEM,
-		"Name=login.x", "Value=0", ENDITEM,
-		"Name=login.y", "Value=0", ENDITEM,
-		"Name=JSFormSubmit", "Value=off", ENDITEM,
-		LAST);
-
 
 	web_submit_data("login.pl",
 		"Action=http://192.168.56.1:1080/cgi-bin/login.pl",
@@ -119,6 +99,12 @@ Action()
 
 	lr_start_transaction("FillFlight");
 	
+	web_reg_save_param_regexp(
+	    "ParamName=outboundFlight", 
+	    "RegExp=name=\"outboundFlight\" value=\"([^\"]+)\"",
+	    "Ordinal=ALL",
+		LAST);
+	
 	
 	web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B> on <B>{departDate}</B>", LAST);
 
@@ -148,6 +134,34 @@ Action()
 
 	lr_end_transaction("FillFlight",LR_AUTO);
 
+	lr_think_time(5);
+	
+	lr_start_transaction("Choose_Flight");
+	
+	lr_save_string(lr_paramarr_random("outboundFlight"),"outboundFlight");
+	
+	web_reg_find("Text=Flight Reservation", LAST);
+
+	web_submit_data("reservations.pl_2",
+		"Action=http://192.168.56.1:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://192.168.56.1:1080/cgi-bin/reservations.pl",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=outboundFlight", "Value={outboundFlight}", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=seatType", "Value={seatType}", ENDITEM,
+		"Name=seatPref", "Value={seatPref}", ENDITEM,
+		"Name=reserveFlights.x", "Value=41", ENDITEM,
+		"Name=reserveFlights.y", "Value=6", ENDITEM,
+		LAST);
+
+	lr_end_transaction("Choose_Flight",LR_AUTO);
+	
 	lr_think_time(5);
 
 	lr_start_transaction("LogOut");

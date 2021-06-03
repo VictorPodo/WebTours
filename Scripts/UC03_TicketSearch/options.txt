@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\zeroz\OneDrive\Desktop\Copy\Scripts\UC03_TicketSearch
+-IC:\Users\zeroz\OneDrive\Desktop\LR_WebTours-main\Scripts\UC03_TicketSearch
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\zeroz\onedrive\desktop\copy\scripts\uc03_ticketsearch\\logfile.log
-c:\users\zeroz\onedrive\desktop\copy\scripts\uc03_ticketsearch\\combined_UC03_TicketSearch.c
-c:\users\zeroz\onedrive\desktop\copy\scripts\uc03_ticketsearch\\pre_cci.c
+-ec:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc03_ticketsearch\\logfile.log
+c:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc03_ticketsearch\\combined_UC03_TicketSearch.c
+c:\users\zeroz\onedrive\desktop\lr_webtours-main\scripts\uc03_ticketsearch\\pre_cci.c

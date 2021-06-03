@@ -1,5 +1,9 @@
 Action()
 {
+	lr_save_datetime ("%m/%d/%Y", DATE_NOW  + ONE_DAY, "departDate");
+	
+	lr_save_datetime ("%m/%d/%Y", DATE_NOW	+ ONE_DAY + (ONE_DAY*1), "returnDate");
+	
 	lr_start_transaction("5_MAIN_RegistrationUser");
 
 	lr_start_transaction("OpenSite");
@@ -94,20 +98,19 @@ Action()
 
 	lr_think_time(5);
 	
-	
-	lr_start_transaction("LogOut");
+	lr_start_transaction("Click_Itinerary");
 
-	web_url("SignOff Button", 
-		"URL=http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1", 
+	web_url("Itinerary Button", 
+		"URL=http://192.168.56.1:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t6.inf", 
+		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("LogOut",LR_AUTO);
+	lr_end_transaction("Click_Itinerary",LR_AUTO);
 	
 	lr_end_transaction("5_MAIN_RegistrationUser",LR_AUTO);
 

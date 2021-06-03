@@ -1,4 +1,4 @@
-Virtual User Script started at: 27.05.2021 19:05:56
+Virtual User Script started at: 30.05.2021 16:33:36
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -24,8 +24,9 @@ Action.c(20): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?in=
 Action.c(20): Detected non-resource "http://192.168.56.1:1080/WebTours/home.html" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(20): Found resource "http://192.168.56.1:1080/WebTours/images/mer_login.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(20): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(20): web_url("webtours") was successful, 10078 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(30): Notify: Transaction "OpenSite" ended with a "Pass" status (Duration: 0,1416 Wasted Time: 0,0699).
+Action.c(20): web_url("webtours") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(30): Notify: Transaction "OpenSite" ended with a "Pass" status (Duration: 0,1442 Wasted Time: 0,0743).
+Action.c(32): lr_think_time: 5,00 seconds.
 Action.c(34): Notify: Transaction "Login" started.
 Action.c(36): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -36,9 +37,10 @@ Action.c(38): Found resource "http://192.168.56.1:1080/WebTours/images/flights.g
 Action.c(38): Found resource "http://192.168.56.1:1080/WebTours/images/itinerary.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(38): Found resource "http://192.168.56.1:1080/WebTours/images/in_home.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(38): Found resource "http://192.168.56.1:1080/WebTours/images/signoff.gif" in HTML "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(38): Registered web_reg_find successful for "Text=Welcome, <b>Bernard</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
-Action.c(38): web_submit_data("login.pl") was successful, 5782 body bytes, 2053 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(55): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1007 Wasted Time: 0,0050).
+Action.c(38): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_submit_data("login.pl") was successful, 5779 body bytes, 2054 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(55): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,0989 Wasted Time: 0,0056).
+Action.c(57): lr_think_time: 5,00 seconds.
 Action.c(59): Notify: Transaction "Click_Itinerary" started.
 Action.c(61): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(61): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -56,26 +58,20 @@ Action.c(86): Resource "http://192.168.56.1:1080/WebTours/images/signoff.gif" is
 Action.c(86): Warning -35048: No match found for the requested parameter "flightID". Check whether the tag with specific attributes exists in the response data  	[MsgId: MWAR-35048]
 Action.c(86): Warning -35049: No match found for the requested parameter "biletsIDbefore". Check whether the requested regular expression exists in the response data  	[MsgId: MWAR-35049]
 Action.c(86): Registered web_reg_find successful for "Text=Invoice sent to:"  	[MsgId: MMSG-26362]
-Action.c(86): web_url("Itinerary Button") highest severity level was "warning", 4381 body bytes, 1319 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
-Action.c(96): Notify: Transaction "Click_Itinerary" ended with a "Pass" status (Duration: 0,0987 Wasted Time: 0,0073).
-Action.c(162): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(162): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(164): Notify: Transaction "Logout" started.
-Action.c(165): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
-Action.c(165): Error -27792: Failed to connect to server "192.168.26.1:1080": [10060] Connection timed out  	[MsgId: MERR-27792]
-Action.c(165): Error -26366: "Text=Web Tours" not found for web_reg_find  	[MsgId: MERR-26366]
-Action.c(165): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
-Action.c(165): web_url("SignOff Button") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
-Action.c(165): Notify: Transaction "Logout" ended with a "Fail" status (Duration: 21,0168 Wasted Time: 0,0035).
-Action.c(165): Notify: Transaction "Logout" has 3 error message(s).
-Action.c(165): Notify: The 1st error message associated with transaction "Logout" is "Error -27792: Failed to connect to server "192.168.26.1:1080": [10060] Connection timed out"
-Action.c(165): Notify: The 2nd error message associated with transaction "Logout" is "Error -26366: "Text=Web Tours" not found for web_reg_find"
-Action.c(165): Notify: The 3rd error message associated with transaction "Logout" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
-Action.c(165): Notify: Transaction "4_MAIN_DeletingTickets" ended with a "Fail" status (Duration: 21,3830 Wasted Time: 0,0878).
-Action.c(165): Notify: Transaction "4_MAIN_DeletingTickets" has 3 error message(s).
-Action.c(165): Notify: The 1st error message associated with transaction "4_MAIN_DeletingTickets" is "Error -27792: Failed to connect to server "192.168.26.1:1080": [10060] Connection timed out"
-Action.c(165): Notify: The 2nd error message associated with transaction "4_MAIN_DeletingTickets" is "Error -26366: "Text=Web Tours" not found for web_reg_find"
-Action.c(165): Notify: The 3rd error message associated with transaction "4_MAIN_DeletingTickets" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Action.c(86): web_url("Itinerary Button") highest severity level was "warning", 4381 body bytes, 1323 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(96): Notify: Transaction "Click_Itinerary" ended with a "Pass" status (Duration: 0,0962 Wasted Time: 0,0060).
+Action.c(160): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(160): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(162): Notify: Transaction "Logout" started.
+Action.c(163): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(163): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?in=home" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(163): Detected non-resource "http://192.168.56.1:1080/WebTours/home.html" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(163): Retrieving data from cache for "http://192.168.56.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(163): Resource "http://192.168.56.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(163): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+Action.c(163): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(173): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,0697 Wasted Time: 0,0036).
+Action.c(174): Notify: Transaction "4_MAIN_DeletingTickets" ended with a "Pass" status (Duration: 10,4350 Think Time: 10,0012 Wasted Time: 0,0910).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

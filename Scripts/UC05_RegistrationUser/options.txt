@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\zeroz\OneDrive\Desktop\Scripts(My)\UC_01_RegistrationUser
+-IC:\Users\zeroz\OneDrive\Desktop\Копии для Excell\LR_WebTours-main\Scripts\UC05_RegistrationUser
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\zeroz\onedrive\desktop\scripts(my)\uc_01_registrationuser\\logfile.log
-c:\users\zeroz\onedrive\desktop\scripts(my)\uc_01_registrationuser\\combined_UC_01_RegistrationUser.c
-c:\users\zeroz\onedrive\desktop\scripts(my)\uc_01_registrationuser\\pre_cci.c
+-ec:\users\zeroz\onedrive\desktop\копии для excell\lr_webtours-main\scripts\uc05_registrationuser\\logfile.log
+c:\users\zeroz\onedrive\desktop\копии для excell\lr_webtours-main\scripts\uc05_registrationuser\\combined_UC05_RegistrationUser.c
+c:\users\zeroz\onedrive\desktop\копии для excell\lr_webtours-main\scripts\uc05_registrationuser\\pre_cci.c
