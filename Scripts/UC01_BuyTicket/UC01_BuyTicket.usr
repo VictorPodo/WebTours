@@ -54,10 +54,10 @@ vuser_end=cci
 [TransactionsOrder]
 Order="1_MAIN_BuyTicket__*delimiter*__OpenSite__*delimiter*__Login__*delimiter*__Click_Flights__*delimiter*__Fill_Flight__*delimiter*__Choose_Flight__*delimiter*__Fill_Payment_Info__*delimiter*__Logout"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 1_MAIN_BuyTicket=
 OpenSite=

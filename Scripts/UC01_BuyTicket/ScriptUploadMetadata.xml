@@ -53,13 +53,13 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv1M6.209.log" Filter="1" />
+    <FileEntry Name="mdrv1MU.781.log" Filter="1" />
     <FileEntry Name="mdrvDi6.409.log" Filter="1" />
     <FileEntry Name="mdrvmtH.269.log" Filter="1" />
     <FileEntry Name="mdrvw2c.859.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
-    <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="Password.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
@@ -73,6 +73,5 @@
     <FileEntry Name="UC01_BuyTicket.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

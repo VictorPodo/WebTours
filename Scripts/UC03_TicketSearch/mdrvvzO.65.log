@@ -1,0 +1,26 @@
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Action.c(39): Notify: Transaction "OpenSite" ended with a "Pass" status (Duration: 0,0692 Wasted Time: 0,0007).	[MsgId: MMSG-16871]
+Action.c(41): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(43): Notify: Transaction "Login" started.	[MsgId: MMSG-16999]
+Action.c(45): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(45): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(47): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(47): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://192.168.56.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(47): Detected non-resource "http://192.168.56.1:1080/cgi-bin/login.pl?intro=true" in "http://192.168.56.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(47): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 19.	[MsgId: MMSG-10545]
+Action.c(64): Notify: Transaction "Login" ended with a "Pass" status (Duration: 15,2324 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(66): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(68): Notify: Transaction "Click_Flights" started.	[MsgId: MMSG-16999]
+Action.c(70): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(70): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(78): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action.c(78): Detected non-resource "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(78): Detected non-resource "http://192.168.56.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://192.168.56.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(78): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://192.168.56.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

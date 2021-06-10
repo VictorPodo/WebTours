@@ -64,7 +64,7 @@ Action()
 	
 	lr_think_time(5);
 
-	lr_start_transaction("ClickFlights");
+	lr_start_transaction("Click_Flights");
 
 	web_reg_save_param_ex(
 		"ParamName=town", 
@@ -93,11 +93,11 @@ Action()
 	}
 
 
-	lr_end_transaction("ClickFlights",LR_AUTO);
+	lr_end_transaction("Click_Flights",LR_AUTO);
 	
 	lr_think_time(5);
 
-	lr_start_transaction("FillFlight");
+	lr_start_transaction("Fill_Flight");
 	
 	web_reg_save_param_regexp(
 	    "ParamName=outboundFlight", 
@@ -132,7 +132,7 @@ Action()
 		"Name=.cgifields", "Value=seatPref", ENDITEM,
 		LAST);
 
-	lr_end_transaction("FillFlight",LR_AUTO);
+	lr_end_transaction("Fill_Flight",LR_AUTO);
 
 	lr_think_time(5);
 	

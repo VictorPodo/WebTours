@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
-Date: Thu, 03 Jun 2021 09:54:00 GMT
+Date: Mon, 07 Jun 2021 15:32:53 GMT
 Server: Apache/2.2.21 (Win32)
-Expires: Wed, 02 Jun 2021 09:54:00 GMT
+Expires: Sun, 06 Jun 2021 15:32:54 GMT
 Set-Cookie: MTUserInfo=firstName&Aaron&username&Aaron&address2&USA&hash&14&expDate&06%2F21&creditCard&5221%206811%204414%206260%20&address1&Klink%20Turin&lastName&Thompson%0A; path=/
 Keep-Alive: timeout=5, max=91
 Connection: Keep-Alive

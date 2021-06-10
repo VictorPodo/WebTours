@@ -1,2 +1,2 @@
-"outboundFlight=920%3B271%3B06%2F04%2F2021&numPassengers=1&advanceDiscount=0&seatType=Business&"
-"seatPref=None&reserveFlights.x=41&reserveFlights.y=6"
+"outboundFlight=970%3B649%3B06%2F08%2F2021&numPassengers=1&advanceDiscount=0&seatType=Business&"
+"seatPref=Window&reserveFlights.x=41&reserveFlights.y=6"

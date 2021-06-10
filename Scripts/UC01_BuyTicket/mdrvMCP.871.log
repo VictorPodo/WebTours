@@ -1,0 +1,7 @@
+Error: CCI compilation error -c:\users\zeroz\appdata\local\temp\brr_ua9.538\global_dir\41329722\pre_cci.c: Action.c:3: error: undeclared identifier `web'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\zeroz\appdata\local\temp\brr_ua9.538\global_dir\41329722\pre_cci.c: Action.c:3: error: left operand of . has incompatible type `int'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\zeroz\appdata\local\temp\brr_ua9.538\global_dir\41329722\pre_cci.c: Action.c:3: error: found `int' expected a function.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\users\zeroz\appdata\local\temp\brr_ua9.538\global_dir\41329722\pre_cci.c: c:\\users\\zeroz\\appdata\\local\\temp\\brr_ua9.538\\global_dir\\41329722\\combined_UC01_BuyTicket.c:6: error: 3 errors, not writing pre_cci.ci.	[MsgId: MERR-19799]
+Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
+Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

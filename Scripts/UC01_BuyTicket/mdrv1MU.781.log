@@ -1,0 +1,18 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(8): Notify: Transaction "1_MAIN_BuyTicket" started.	[MsgId: MMSG-16999]
+Action.c(10): Notify: Transaction "OpenSite" started.	[MsgId: MMSG-16999]
+Action.c(13): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(13): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(29): web_url("webtours") started  	[MsgId: MMSG-26355]
+Action.c(29): Error -27792: Failed to connect to server "192.168.56.1:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(29): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+Action.c(29): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(29): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
